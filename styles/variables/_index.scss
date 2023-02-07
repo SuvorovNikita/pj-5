@@ -1,0 +1,43 @@
+// Fonts
+
+$base-font:'Noto Sans', sans-serif;
+
+//Colors
+
+$color-gray: #868585;
+$color-white: #FFF;
+$color-black: #303030;
+$color-hover: #A9A32A;
+
+
+// Animations
+
+$animation-breakpoint: md !default;
+$animation-duration: 0.2s !default;
+$animation-function: ease !default;
+$transition-breakpoint: md !default;
+$transition-duration: 0.2s !default;
+$transition-function: ease !default;
+
+// Grid Config
+
+$grid-gutter: 15px;
+$grid-breakpoints: (
+        xs: 0,
+        sm: 568px,
+        md: 768px,
+        lg: 1024px,
+        xl: 1280px,
+);
+$container-max-widths: (
+        sm: 522px,
+        md: 708px,
+        lg: 944px,
+        xl: 1229px,
+);
+$container-max-widths-sm: (
+        sm: 522px,
+        md: 708px,
+        lg: 944px,
+        xl: 970px,
+);

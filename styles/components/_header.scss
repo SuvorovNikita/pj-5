@@ -1,0 +1,18 @@
+@import "../styles/variables/index";
+@import "../styles/mixins/index";
+
+.c-header {
+  $root: &;
+
+  &__body {
+    padding-top: 70px;
+  }
+
+  &__logo {
+    text-align: center;
+    padding-top: 70px;
+    position: relative;
+    z-index: 1;
+  }
+
+}

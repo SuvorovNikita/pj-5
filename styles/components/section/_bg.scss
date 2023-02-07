@@ -1,0 +1,20 @@
+@import "styles/variables/index";
+@import "styles/mixins/index";
+
+
+&--bg {
+  position: absolute;
+  display: block;
+  height: 900px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &--image-1 {
+    background-image: url("../../../public/img/header/header-bg.jpg");
+  }
+}
+

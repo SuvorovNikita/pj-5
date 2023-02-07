@@ -1,0 +1,11 @@
+@import "styles/variables/index";
+@import "styles/mixins/index";
+
+&--home {
+  position: relative;
+
+  #{$root} {
+
+
+  }
+}
